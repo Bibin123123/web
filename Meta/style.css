@@ -1,1 +1,40 @@
-
+body{
+            margin:0px;
+        }
+        #logo{
+            
+            width:40px;
+            height:40px;
+        }
+        img{
+            width:100%;
+        }
+        ul{
+            display:flex;
+            justify-content:space-evenly;
+        }
+        section{
+            display:grid;
+            grid-template-rows:1fr 1fr;
+            grid-template-columns:1fr 1fr 1fr;
+            grid-gap:50px 8px;
+            
+        }
+       .item1{
+           grid-column:span 3;
+           background-image:url('https://i.ibb.co/FkSy00rB/360-F-211604911-wn1-Fq-Bn-H7-TRf-N87ux5pn-Q2sg-ZUj7r-GYd.jpg');
+           color:white;
+           font-size:25px;
+           box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          
+       }
+     .item3,.item4,.item2{
+          background-color:#ecdbff;
+          box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          
+      }
+      
+       footer{
+           display:flex;
+           justify-content:space-around;
+       }
